@@ -1,0 +1,6 @@
+t1=(1,2,3)
+t2=("ONE","TWO","THREE")
+l=list(map(lambda x,y:(x,y),t1,t2))
+print(l)
+d=dict(l)
+print(d)

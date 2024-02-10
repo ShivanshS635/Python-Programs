@@ -1,0 +1,5 @@
+f=open("Stock.txt","r")
+print("DATA FROM FILE\n")
+s=f.read()
+print(s)
+f.close()

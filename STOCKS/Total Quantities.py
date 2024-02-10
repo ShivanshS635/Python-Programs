@@ -1,0 +1,12 @@
+f=open("Stock.txt","r")
+sum=0
+line=f.readline()
+ctr=1
+while(line!=""):
+    print(ctr,":",line,end="")
+    l=line.rstrip().split(",")
+    line=f.readline()
+    sum=sum+int(l[-1])
+    ctr+=1
+print(sum)
+f.close()

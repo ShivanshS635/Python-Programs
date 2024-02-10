@@ -1,0 +1,5 @@
+a=eval(input("ENTER LIST:"))
+b=eval(input("ENTER LIST:"))
+c=eval(input("ENTER LIST:"))
+t=list(map(lambda x,y,z:x+y+z,a,b,c))
+print(t)
